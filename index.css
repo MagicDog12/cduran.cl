@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 30px;
+}
+
+body {
+    font-family: 'circular-book', Arial, Tahoma, sans-serif;
+    color: #031b4e;
+    line-height: 1.4;
+    display: block;
+    padding: 0px 2px;
+}
+
+#fondo1 {
+    background-image: url(img/fondo\ cielo.png);
+}
+
+#fondo2 {
+    background-image: url(img/fondo\ nubes.png);
+}
+
+#fondo3 {
+    background-image: url(img/fondo\ arboles.png);
+}
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+}
+
+header {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    font-size: 0.8rem;
+}
+
+h2 {
+    font-size: 0.7rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+}
+
+.wrapHeader {
+    min-height: 128px;
+    font-family: 'circular-bold', sans-serif;
+    font-size: 0.5rem;
+    line-height: 1.5;
+    color: rgba(3, 27, 78, 0.8);
+    padding: 20px 0;
+}
+
+.container {
+    width: 1280px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    position: relative;
+    justify-content: center;
+}
+
+.imgContainer {
+    padding: 20px 0px 20px 20px;
+}
+
+.fotos {
+    display: block;
+    max-width: 50px;
+}
+
+ .spanFooter {
+    font-size: 0.6rem;
+    padding-left: 1%;
+    color: #ffffff;
+    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
+ 
+ }
+
+ .spanHeader {
+    font-size: 0.6rem;
+    padding-left: 1%;
+ }
+
+  .cuadro {
+    border: 5px solid black;
+  }
+
+  .cuadroIzq {
+    padding: 0px 2px;
+  }
+
+  .cuadroDer {
+    margin-left: 1%;
+  }
+
+  .logo {
+    border: 3px solid black;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    float: left;
+    background-color: #ffffff;
+  }
+
+  .logo:hover {
+    opacity: 50%;
+  }
+
+  .fotoPerfil {
+    display: block;
+    max-width: 150px;
+  }
+
+  .logoPC {
+    max-width: 150px;
+    filter:drop-shadow(1px 1px 3px #7c0454)
+  }
+
+  .containerOfProjects {
+    justify-content: center;
+  }
+
+  .botones {
+    border: 3px solid black;
+    padding: 2px 2px;
+    margin: 5px 5px;
+    max-width: max-content;
+    background-color: #ffffff;
+  }
+
+  .btn {
+    font-size: auto;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid black;
+  }
+
+  .btn:hover {
+    background-color: #172eb3;
+  }
+
+  .project1 {
+    background: #13cc94;
+    color: #000000;
+    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
+  }
+
+  .project2 {
+    background: #c7da1e;
+    color: #000000;
+    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
+  }
+
+  .project3 {
+    background: #ad0d8b;
+    color: #000000;
+    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
+  }
