@@ -30,6 +30,7 @@ body {
 
 .fondo4 {
   background-color: #586c6e;
+  border-radius: 6px;
 }
 
 body, html {
