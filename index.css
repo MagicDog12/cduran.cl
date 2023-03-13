@@ -94,6 +94,10 @@ h3 {
     border: 5px solid black;
   }
 
+  .cuadroTexto {
+    width: 50%;
+  }
+
   .cuadroIzq {
     padding: 0px 2px;
   }
