@@ -28,6 +28,10 @@ body {
     background-image: url(img/fondo\ arboles.png);
 }
 
+.fondo4 {
+  background-color: #586c6e;
+}
+
 body, html {
     height: 100%;
     min-height: 100%;
@@ -113,6 +117,15 @@ h3 {
   .fotoPerfil {
     display: block;
     max-width: 150px;
+  }
+
+  .fotoOpacity {
+    opacity: 0.6;
+  }
+
+  .fotoOpacity:hover {
+    opacity: 1;
+    border: 5px solid rgb(124, 243, 213);
   }
 
   .logoPC {
