@@ -92,6 +92,7 @@ h3 {
 
   .cuadro {
     border: 5px solid black;
+    border-radius: 6px;
   }
 
   .cuadroTexto {
@@ -108,6 +109,7 @@ h3 {
 
   .logo {
     border: 3px solid black;
+    border-radius: 6px;
     padding: 5px 5px;
     margin: 5px 5px;
     float: left;
@@ -130,6 +132,7 @@ h3 {
   .fotoOpacity:hover {
     opacity: 1;
     border: 5px solid rgb(124, 243, 213);
+    border-radius: 6px;
   }
 
   .logoPC {
@@ -143,6 +146,7 @@ h3 {
 
   .botones {
     border: 3px solid black;
+    border-radius: 6px;
     padding: 2px 2px;
     margin: 5px 5px;
     max-width: max-content;
@@ -154,6 +158,7 @@ h3 {
     text-decoration: none;
     display: inline-block;
     border: 3px solid black;
+    border-radius: 6px;
   }
 
   .btn:hover {
