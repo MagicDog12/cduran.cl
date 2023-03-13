@@ -16,29 +16,21 @@ body {
     padding: 0px 2px;
 }
 
-#fondo1 {
+.fondo1 {
     background-image: url(img/fondo\ cielo.png);
 }
 
-#fondo2 {
+.fondo2 {
     background-image: url(img/fondo\ nubes.png);
 }
 
-#fondo3 {
+.fondo3 {
     background-image: url(img/fondo\ arboles.png);
 }
 
 body, html {
     height: 100%;
     min-height: 100%;
-}
-
-header {
-    display: block;
-}
-
-div {
-    display: block;
 }
 
 h1 {
@@ -63,7 +55,6 @@ h3 {
 }
 
 .container {
-    width: 1280px;
     max-width: 100%;
     text-align: center;
     display: flex;
@@ -168,4 +159,16 @@ h3 {
     background: #ad0d8b;
     color: #000000;
     text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
+  }
+
+  .padre {
+    overflow: hidden;
+  }
+
+  .izquierda {
+    float: left;
+  }
+
+  .derecha {
+    float: right;
   }
