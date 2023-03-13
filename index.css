@@ -110,10 +110,23 @@ h3 {
 
   .logo {
     border: 3px solid black;
-    border-radius: 6px;
-    padding: 5px 5px;
+    border-radius: 100%;
     margin: 5px 5px;
+    padding: 3px 3px;
     float: left;
+    overflow: hidden;
+  }
+
+  .logoLinkedin {
+    background-color: #0a66c2;
+  }
+
+  .logoGithub {
+    background-color: #101214;
+    padding: 0 0;
+  }
+
+  .logoCurriculum {
     background-color: #ffffff;
   }
 
