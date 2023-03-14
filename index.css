@@ -154,7 +154,13 @@ h3 {
 
   .logoPC {
     max-width: 150px;
-    filter:drop-shadow(1px 1px 3px #7c0454)
+    filter:drop-shadow(1px 1px 3px #7c0454);
+    opacity: 0.9;
+  }
+
+  .logoPC:hover {
+    filter:drop-shadow(2px 2px 1px #ad62a1);
+    opacity: 1;
   }
 
   .containerOfProjects {
