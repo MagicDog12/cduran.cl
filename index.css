@@ -214,3 +214,7 @@ h3 {
   .derecha {
     float: right;
   }
+
+  li {
+    list-style: none;
+  }
