@@ -51,7 +51,6 @@ h3 {
 }
 
 .wrapHeader {
-    min-height: 128px;
     font-family: 'circular-bold', sans-serif;
     font-size: 0.5rem;
     line-height: 1.5;
@@ -94,6 +93,11 @@ h3 {
   .cuadro {
     border: 5px solid black;
     border-radius: 6px;
+  }
+
+  .cuadroChico {
+    max-width: 95%;
+    margin: 0 auto;
   }
 
   .cuadroTexto {
