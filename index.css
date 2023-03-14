@@ -196,6 +196,12 @@ h3 {
     text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
   }
 
+  .project4 {
+    background: #ca7026;
+    color: #000000;
+    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
+  }
+
   .padre {
     overflow: hidden;
   }
