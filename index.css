@@ -155,6 +155,14 @@ h3 {
     border-radius: 6px;
   }
 
+  @keyframes logoPcMovimiento {
+    0%{transform: rotate3d(0, 0, 0, 0deg);}
+    49%{transform: perspective(1rem);}
+    50%{transform: rotate3d(1, 0, 1, 3deg);}
+    99%{transform: perspective(0.5rem);}
+    100%{transform: rotate3d(0, 1, 1, -3deg);}
+  }
+
   .logoPC {
     max-width: 150px;
     filter:drop-shadow(1px 1px 3px #7c0454);
@@ -164,6 +172,7 @@ h3 {
   .logoPC:hover {
     filter:drop-shadow(2px 2px 1px #ad62a1);
     opacity: 1;
+    animation: logoPcMovimiento 0.5s ease infinite;
   }
 
   .containerOfProjects {
