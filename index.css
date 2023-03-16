@@ -39,14 +39,17 @@ body, html {
 }
 
 h1 {
-    font-size: 0.8rem;
+    font-family: 'Gochi Hand';
+    font-size: 0.9rem;
 }
 
 h2 {
-    font-size: 0.7rem;
+    font-family: 'Gochi Hand';
+    font-size: 0.8rem;
 }
 
 h3 {
+    font-family: 'Gochi Hand';
     font-size: 0.8rem;
 }
 
@@ -177,6 +180,7 @@ h3 {
   }
 
   .btn {
+    font-family: 'Yatra One';
     font-size: auto;
     text-decoration: none;
     display: inline-block;
@@ -192,25 +196,21 @@ h3 {
   .project1 {
     background: #13cc94;
     color: #000000;
-    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
   }
 
   .project2 {
     background: #c7da1e;
     color: #000000;
-    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
   }
 
   .project3 {
     background: #ad0d8b;
     color: #000000;
-    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
   }
 
   .project4 {
     background: #ca7026;
     color: #000000;
-    text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
   }
 
   .padre {
