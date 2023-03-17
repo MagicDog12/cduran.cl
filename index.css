@@ -14,6 +14,7 @@ body {
     line-height: 1.4;
     display: block;
     padding: 0px 2px;
+    max-width: 100%;
 }
 
 .fondo1 {
@@ -31,11 +32,6 @@ body {
 .fondo4 {
   background-color: #586c6e;
   border-radius: 6px;
-}
-
-body, html {
-    height: 100%;
-    min-height: 100%;
 }
 
 h1 {
@@ -222,18 +218,29 @@ h3 {
     color: #000000;
   }
 
-  .padre {
-    overflow: hidden;
-  }
-
-  .izquierda {
-    float: left;
-  }
-
-  .derecha {
-    float: right;
-  }
-
   li {
     list-style: none;
+  }
+
+  @media screen and (max-width:700px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .cuadroDer {
+      margin: 8px 0;
+    }
+    
+    .wrapHeader .container {
+      flex-direction: row;
+    }
+
+    .cuadroTexto {
+      width: 90%;
+    }
+
+    .cuadroOfProjects {
+      max-width: 90%;
+    }
+    
   }
