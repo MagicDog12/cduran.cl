@@ -69,6 +69,8 @@ h3 {
 
 .imgContainer {
     padding: 20px 0px 20px 20px;
+    animation: cristianDuranMovimiento 5s ease 1;
+    animation-delay: 1.5ss;
 }
 
 .fotos {
@@ -182,6 +184,7 @@ h3 {
 
   .cristianDuran:hover + .imgContainer{
     animation: cristianDuranMovimiento 5s ease 1;
+    animation-delay: 1s;
   }
 
   .containerOfProjects {
