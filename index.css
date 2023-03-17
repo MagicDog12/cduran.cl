@@ -67,10 +67,19 @@ h3 {
     justify-content: center;
 }
 
+@keyframes movimientoInicial {
+  0%{transform: translateY(0);}
+  10%{transform: rotate(180deg);}
+  15%{transform: rotate(180deg);}
+  50%{transform: translateY(1000px);}
+  100%{transform: translateY(0);}
+  
+}
+
 .imgContainer {
     padding: 20px 0px 20px 20px;
-    animation: cristianDuranMovimiento 5s ease 1;
-    animation-delay: 1.5ss;
+    animation: movimientoInicial 5s ease 1;
+    animation-delay: 1.5s;
 }
 
 .fotos {
@@ -184,7 +193,6 @@ h3 {
 
   .cristianDuran:hover + .imgContainer{
     animation: cristianDuranMovimiento 5s ease 1;
-    animation-delay: 1s;
   }
 
   .containerOfProjects {
