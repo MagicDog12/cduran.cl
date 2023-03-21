@@ -77,10 +77,14 @@ h3 {
   
 }
 
-.imgContainer {
+.imgContainerSuperior {
     padding: 20px 0px 20px 20px;
     animation: movimientoInicial 5s ease 1;
     animation-delay: 1.5s;
+}
+
+.imgContainerInferior {
+  padding: 20px 0px 20px 20px;
 }
 
 .fotos {
