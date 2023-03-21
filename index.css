@@ -171,15 +171,6 @@ h3 {
     100%{transform: rotate3d(0, 1, 1, -3deg);}
   }
 
-  @keyframes cristianDuranMovimiento {
-    0%{transform: translateY(0);}
-    10%{transform: rotate(180deg);}
-    15%{transform: rotate(180deg);}
-    50%{transform: translateY(1000px);}
-    100%{transform: translateY(0);}
-    
-  }
-
   .logoPC {
     max-width: 150px;
     filter:drop-shadow(1px 1px 3px #7c0454);
@@ -190,10 +181,6 @@ h3 {
     filter:drop-shadow(2px 2px 1px #ad62a1);
     opacity: 1;
     animation: logoPcMovimiento 0.5s ease 10;
-  }
-
-  .cristianDuran:hover + .imgContainer{
-    animation: cristianDuranMovimiento 5s ease 1;
   }
 
   .containerOfProjects {
