@@ -148,6 +148,10 @@ h3 {
     background-color: #ffffff;
   }
 
+  .logoFreeCodeCamp {
+    background-color: #492c14;
+  }
+
   .logo:hover {
     opacity: 50%;
   }
