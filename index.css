@@ -11,7 +11,6 @@ html {
 body {
     font-family: 'circular-book', Arial, Tahoma, sans-serif;
     color: #031b4e;
-    line-height: 1.4;
     display: block;
     padding: 0px 2px;
     max-width: 100%;
@@ -37,17 +36,20 @@ body {
 h1 {
     font-family: 'Gochi Hand';
     font-size: 1.1rem;
+    line-height: 1.4;
 }
 
 h2 {
     font-family: 'Gochi Hand';
     font-size: 0.8rem;
     margin: 2px 2px;
+    line-height: 1.4;
 }
 
 h3 {
     font-family: 'Gochi Hand';
     font-size: 0.8rem;
+    line-height: 1.4;
 }
 
 .wrapHeader {
@@ -72,7 +74,7 @@ h3 {
   0%{transform: translateY(0);}
   10%{transform: rotate(180deg);}
   15%{transform: rotate(180deg);}
-  50%{transform: translateY(1000px);}
+  50%{transform: translateY(900px);}
   100%{transform: translateY(0);}
   
 }
@@ -81,10 +83,26 @@ h3 {
     padding: 20px 0px 20px 20px;
     animation: movimientoInicial 5s ease 1;
     animation-delay: 1.5s;
+    filter:drop-shadow(1px 1px 3px #7c0454);
+    opacity: 0.9;
+}
+
+.imgContainerSuperior:hover {
+  filter:drop-shadow(2px 2px 1px #ad62a1);
+  opacity: 1;
+  animation: logoPcMovimiento 0.5s ease 10;
 }
 
 .imgContainerInferior {
   padding: 20px 0px 20px 20px;
+  filter:drop-shadow(1px 1px 3px #7c0454);
+  opacity: 0.9;
+}
+
+.imgContainerInferior:hover {
+  filter:drop-shadow(2px 2px 1px #ad62a1);
+  opacity: 1;
+  animation: logoPcMovimiento 0.5s ease 10;
 }
 
 .fotos {
@@ -181,15 +199,53 @@ h3 {
 
   .logoPC {
     max-width: 150px;
-    filter:drop-shadow(1px 1px 3px #7c0454);
-    opacity: 0.9;
   }
 
-  .logoPC:hover {
-    filter:drop-shadow(2px 2px 1px #ad62a1);
-    opacity: 1;
-    animation: logoPcMovimiento 0.5s ease 10;
+  #pcPixelArt {
+    position: relative;
+    width: 150px; /* ajusta el tamaño según tu imagen */
+    height: 150px;
+    overflow: hidden;
   }
+  
+  #pcPixelArt img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #ojoIzqPixelArt {
+    top: 30px; /* ajusta la posición según tu imagen */
+    left: 40px;
+  }
+
+  #ojoDerPixelArt {
+    top: 30px; /* ajusta la posición según tu imagen */
+    left: 40px;
+  }
+
+  #pcPixelArt2 {
+    position: relative;
+    width: 150px; /* ajusta el tamaño según tu imagen */
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  #pcPixelArt2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #ojoIzqPixelArt2 {
+    top: 30px; /* ajusta la posición según tu imagen */
+    left: 40px;
+  }
+
+  #ojoDerPixelArt2 {
+    top: 30px; /* ajusta la posición según tu imagen */
+    left: 40px;
+  }  
 
   .containerOfProjects {
     justify-content: center;
@@ -206,6 +262,7 @@ h3 {
 
   .btn {
     font-family: 'Yatra One';
+    font-size: 0.8rem;
     text-decoration: none;
     display: inline-block;
     border: 3px solid black;
@@ -265,6 +322,50 @@ h3 {
 
     .cuadroOfProjects {
       max-width: 90%;
+    }
+
+    .titulo {
+      width: 50%;
+    }
+
+    h1 {
+      font-family: 'Gochi Hand';
+      font-size: 0.9rem;
+    }
+  
+    h2 {
+      font-size: 0.7rem;
+    }
+  
+    h3 {
+      font-size: 0.7rem;
+    }
+
+    .logoPC {
+      max-width: 120px;
+    }
+  
+    #pcPixelArt {
+      position: relative;
+      width: 120px; /* ajusta el tamaño según tu imagen */
+      height: 120px;
+      overflow: hidden;
+    }
+    
+    #pcPixelArt img {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    #ojoIzqPixelArt {
+      top: 0px; /* ajusta la posición según tu imagen */
+      left: 0px;
+    }
+  
+    #ojoDerPixelArt {
+      top: 0px; /* ajusta la posición según tu imagen */
+      left: 0px;
     }
     
   }
