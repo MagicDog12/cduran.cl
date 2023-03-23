@@ -110,6 +110,7 @@ h3 {
 
  .spanFooter {
     font-size: 0.6rem;
+    width: 50%;
     padding-left: 1%;
     color: #ffffff;
     text-shadow: 0 0 80px #000000,0 0 30px #b7d3b7,0 0 6px #000000;
