@@ -82,7 +82,9 @@ h3 {
 .imgContainerSuperior {
     padding: 20px 0px 20px 20px;
     animation: movimientoInicial 5s ease 1;
+    animation-iteration-count: 1;
     animation-delay: 1.5s;
+    animation-fill-mode: forwards;
     filter:drop-shadow(1px 1px 3px #7c0454);
     opacity: 0.9;
 }
