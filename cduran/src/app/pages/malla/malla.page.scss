@@ -1,0 +1,114 @@
+.fondo1 {
+  background-image: url(../../../assets/img/fondo\ cielo.png);
+}
+
+.fondo2 {
+  background-image: url(../../../assets/img/fondo\ nubes.png);
+}
+
+h2 {
+  font-family: 'Gochi Hand';
+  font-size: 0.8rem;
+  margin: 2px 2px;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  position: relative;
+  justify-content: center;
+}
+
+.cuadro {
+  border: 5px solid black;
+  border-radius: 6px;
+}
+
+.cuadroTexto {
+  width: 50%;
+}
+
+.cuadroIzq {
+  padding: 0px 2px;
+}
+
+.container-of-projects {
+  justify-content: center;
+}
+
+.botones {
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 2px 2px;
+  margin: 5px 5px;
+  max-width: max-content;
+  background-color: #ffffff;
+}
+
+.btn {
+  font-family: 'Yatra One';
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #3e5bff;
+  color: #ffffff;
+}
+
+.project2 {
+  background: #c7da1e;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
+
+ul li h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-right: 10px;
+}
+
+ul li h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-image: linear-gradient(to right, #00ffff, #fa0fd3);
+  transition: all 0.3s ease-in-out;
+}
+
+ul li h2:hover::before {
+  width: 100%;
+}
+
+
+@media screen and (max-width:700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .cuadroTexto {
+    width: 90%;
+  }
+
+  .cuadroOfProjects {
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 0.7rem;
+  }
+}

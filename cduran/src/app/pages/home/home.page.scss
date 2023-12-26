@@ -1,13 +1,13 @@
 .fondo1 {
-  background-image: url(../../assets/img/fondo\ cielo.png);
+  background-image: url(../../../assets/img/fondo\ cielo.png);
 }
 
 .fondo2 {
-  background-image: url(../../assets/img/fondo\ nubes.png);
+  background-image: url(../../../assets/img/fondo\ nubes.png);
 }
 
 .fondo3 {
-  background-image: url(../../assets/img/fondo\ arboles.png);
+  background-image: url(../../../assets/img/fondo\ arboles.png);
 }
 
 .fondo4 {
@@ -257,7 +257,7 @@ h3 {
   left: 40px;
 }
 
-.containerOfProjects {
+.container-of-projects {
   justify-content: center;
 }
 
@@ -309,18 +309,13 @@ h3 {
   color: #000000;
 }
 
-li {
-  list-style: none;
-}
-
-ul li h2 {
+.line-info {
   position: relative;
   display: inline-block;
-  padding-bottom: 5px;
   margin-right: 10px;
 }
 
-ul li h2::before {
+.line-info::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -331,7 +326,7 @@ ul li h2::before {
   transition: all 0.3s ease-in-out;
 }
 
-ul li h2:hover::before {
+.line-info:hover::before {
   width: 100%;
 }
 
@@ -401,4 +396,20 @@ ul li h2:hover::before {
     left: 0px;
   }
 
+}
+
+.important-info {
+  color: purple;
+}
+
+.sub-important-info {
+  color: #ad0d8b;
+}
+
+.normal-info {
+  color: #6109a8;
+}
+
+li {
+  list-style: none;
 }
