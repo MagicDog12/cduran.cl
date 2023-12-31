@@ -1,55 +1,18 @@
 <div class="fondo2">
-  <section>
     <div class="container">
       <div class="cuadro fondo1 cuadroTexto">
         <div class="cuadroIzq">
-          <h2>Durante mi estadia en la Universidad he aprendido diversos conocimientos de estos ramos:
+          <h2>
+            Durante mi estadia en la Universidad he aprendido diversos conocimientos de estos ramos:
           </h2>
-          <ul>
-            <li>
-              <h2>Algoritmos y Estructuras de Datos</h2>
-            </li>
-            <li>
-              <h2>Taller de Programación Competitiva</h2>
-            </li>
-            <li>
-              <h2>Programación de Software de Sistemas</h2>
-            </li>
-            <li>
-              <h2>Bases de Datos</h2>
-            </li>
-            <li>
-              <h2>Teoría de la Computación</h2>
-            </li>
-            <li>
-              <h2>Metodologías de Diseño y Programación</h2>
-            </li>
-            <li>
-              <h2>Taller de Hacking Competitivo</h2>
-            </li>
-            <li>
-              <h2>Ingeniería de Software</h2>
-            </li>
-            <li>
-              <h2>Arquitectura de Computadores</h2>
-            </li>
-            <li>
-              <h2>Lenguajes de Programación</h2>
-            </li>
-            <li>
-              <h2>Diseño y Análisis de Algoritmos</h2>
-            </li>
-            <li>
-              <h2>Sistemas Operativos</h2>
-            </li>
-            <li>
-              <h2>Redes</h2>
-            </li>
-            <li>
-              <h2>Recuperación de Información Multimedia</h2>
-            </li>
-          </ul>
         </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div *ngFor="let ramo of ramos" class="card">
+        <h3>{{ ramo.nombre}}</h3>
+        <p>{{ ramo.descripcion }}</p>
+        <a *ngIf="ramo.link" href={{ramo.link}}> Ver más </a>
       </div>
     </div>
     <div class="container">
@@ -63,5 +26,4 @@
         </div>
       </div>
     </div>
-  </section>
 </div>
