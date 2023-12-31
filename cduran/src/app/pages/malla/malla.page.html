@@ -12,7 +12,8 @@
       <div *ngFor="let ramo of ramos" class="card">
         <h3>{{ ramo.nombre}}</h3>
         <p>{{ ramo.descripcion }}</p>
-        <a *ngIf="ramo.link" href={{ramo.link}}> Ver más </a>
+        <p *ngFor="let skill of ramo.skills"><span class="skills"> > {{ skill }}</span> <br></p>
+        <a *ngIf="ramo.link" href={{ramo.link}}> > Ver más </a>
       </div>
     </div>
     <div class="container">
