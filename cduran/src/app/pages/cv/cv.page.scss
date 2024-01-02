@@ -29,6 +29,7 @@ h2 {
 
 li {
   list-style: none;
+  display: inline-block;
 }
 
 .botones {
@@ -52,6 +53,11 @@ li {
 .btn:hover {
   background-color: #3e5bff;
   color: #ffffff;
+}
+
+.project1 {
+  background: #2cdbb8;
+  color: #000000;
 }
 
 .project2 {
