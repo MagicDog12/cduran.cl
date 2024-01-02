@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, Renderer2, ViewChild } from "@angular/core";
 import { Router } from "@angular/router";
+import { ScrollService } from "../../services/scroll.service";
 
 
 @Component({
@@ -24,9 +25,11 @@ export class HomePage implements OnInit {
 
   constructor(
     private renderer: Renderer2,
+    private scrollService: ScrollService
   ) { }
 
   ngOnInit(): void {
+    this.scrollService.scrollToTopOnRouterChange();
     this.renderer.listen('document', 'mousemove', (evento: MouseEvent) => {
       const x = evento.clientX;
       const y = evento.clientY;

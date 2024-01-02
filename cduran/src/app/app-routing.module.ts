@@ -4,6 +4,7 @@ import { HomePage } from './pages/home/home.page';
 import { CvPage } from './pages/cv/cv.page';
 import { NotFoundPage } from './pages/not-found/not-found.page';
 import { MallaPage } from './pages/malla/malla.page';
+import { ScrollService } from './services/scroll.service';
 
 const routes: Routes = [
   {
@@ -41,6 +42,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [ScrollService]
 })
 export class AppRoutingModule { }
