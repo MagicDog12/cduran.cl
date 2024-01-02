@@ -1,0 +1,30 @@
+<div class="fondo2">
+    <div class="container">
+      <div class="cuadro fondo1 cuadroTexto">
+        <div class="cuadroIzq">
+          <h2>
+            Durante mi estadia en la Universidad he aprendido diversos conocimientos de estos ramos:
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div *ngFor="let ramo of ramos" class="card">
+        <h3>{{ ramo.nombre}}</h3>
+        <p>{{ ramo.descripcion }}</p>
+        <p *ngFor="let skill of ramo.skills"><span class="skills"> > {{ skill }}</span> <br></p>
+        <a *ngIf="ramo.link" href={{ramo.link}}> > Ver más </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="cuadro fondo1 cuadroOfProjects">
+        <div class="containerOfProjects">
+          <ul>
+            <li class="botones">
+              <a routerLink="/" class="btn project2">Volver al inicio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>

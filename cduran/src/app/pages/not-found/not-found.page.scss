@@ -1,0 +1,65 @@
+.fondo1 {
+  background-image: url(../../../assets/img/fondo\ cielo.png);
+}
+
+.fondo2 {
+  background-image: url(../../../assets/img/fondo\ nubes.png);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Gochi Hand';
+  font-size: 1.1rem;
+  line-height: 1.4;
+  padding: 10px;
+}
+
+.wrapHeader {
+  font-family: 'circular-bold', sans-serif;
+  font-size: 0.5rem;
+  line-height: 1.5;
+  color: rgba(3, 27, 78, 0.8);
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  position: relative;
+  justify-content: center;
+}
+
+.cuadro {
+  border: 5px solid black;
+  border-radius: 6px;
+}
+
+.cuadroChico {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .wrapHeader .container {
+    flex-direction: row;
+  }
+
+  .titulo {
+    width: 50%;
+  }
+
+  h1 {
+    font-family: 'Gochi Hand';
+    font-size: 0.9rem;
+  }
+}

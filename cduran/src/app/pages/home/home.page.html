@@ -1,0 +1,110 @@
+<div class="fondo2">
+  <div class="cuadro fondo1 cuadroChico">
+    <header class="wrapHeader">
+      <div class="container">
+        <div class="titulo">
+          <h1>
+            ¡Hola! Mi nombre es <br><span class="line-info">{{ displayedContentTitle }}</span>
+          </h1>
+        </div>
+        <div #pcPixelArt class="imgContainerSuperior">
+          <img src={{pcImage}} class="logoPC" alt="Logo PC">
+        </div>
+      </div>
+    </header>
+  </div>
+  <section>
+    <div class="container">
+      <div class="cuadro fondo1 cuadroTexto">
+        <div class="cuadroIzq">
+          <h2>Soy estudiante de último año de <span class="important-info line-info">Ingeniería Civil en
+              Computación</span> de la <span class="important-info line-info">Universidad de Chile</span>,
+            con un apasionado interés en el mundo del desarrollo de aplicaciones web y la ingeniería de software.
+            <br>
+            Mi trayectoria como <span class="sub-important-info line-info">Software Developer</span> me ha permitido adentrarme en
+            el emocionante universo del
+            desarrollo web y de aplicaciones Android, explorando a fondo tecnologías como <span
+              class="normal-info line-info">JavaScript</span> con su entorno de
+            ejecución <span class="normal-info line-info">Node.js</span> y sus frameworks <span
+              class="normal-info line-info">Angular</span>, <span class="normal-info line-info">Ionic</span> y <span
+              class="normal-info line-info">Vue</span>, así como <span class="normal-info line-info">Python</span> con su framework <span
+              class="normal-info line-info">Django</span>.
+          </h2>
+        </div>
+      </div>
+      <div class="cuadroDer fondo4">
+        <div class="cuadro fotoOpacity">
+          <img src={{profileImage}} id="FotoPerfil" class="fotoPerfil" alt="Cris" width="400">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="cuadro fondo1 cuadroOfProjects">
+        <h3>
+          Mis proyectos en proceso son:
+        </h3>
+        <div class="containerOfProjects">
+          <ul>
+            <li class="botones">
+              <a href="https://github.com/MagicDog12/cduran.cl" class="btn project5">Portafolio <img src={{githubLogo2}}
+                alt="Github" width="20"></a>
+            </li>
+            <li class="botones">
+              <a href="https://magicdog12.github.io/FitPartner" class="btn project2">Fit Partner</a>
+            </li>
+            <li class="botones">
+              <a href="https://github.com/MagicDog12/FitPartner" class="btn project2">Fit Partner <img src={{githubLogo2}}
+                alt="Github" width="20"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="cuadro fondo1 cuadroOfProjects">
+        <h3>
+          A lo largo de mi carrera he cursado los siguientes ramos:
+        </h3>
+        <div class="containerOfProjects">
+          <ul>
+            <li class="botones">
+              <a routerLink="/malla" class="btn project1">Ver malla curricular</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <div class="logo logoLinkedin">
+          <a href="https://www.linkedin.com/in/cris-duran/"><img src={{linkedinLogo}} id="LogoLinkedin" class="fotos"
+              alt="Linkedin" width="50"></a>
+        </div>
+        <div class="logo logoGithub">
+          <a href="https://github.com/MagicDog12"><img src={{githubLogo}} id="LogoGithub" class="fotos" alt="GitHub"
+              width="50"></a>
+        </div>
+        <div class="logo logoCurriculum">
+          <a [routerLink]="['/cv']" routerLinkActive="router-link-active"><img src={{cvLogo}} id="LogoCurriculum"
+              class="fotos" alt="Curriculum Vitae" width="50"></a>
+        </div>
+        <div class="logo logoFreeCodeCamp">
+          <a href="https://www.freecodecamp.org/espanol/Cristian_Duran"><img src={{freecodecampLogo}}
+              id="LogoFreeCodeCamp" class="fotos" alt="Free Code Camp" width="50"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="cuadro fondo3 cuadroChico">
+    <footer class="wrapHeader">
+      <div class="container">
+        <span class="spanFooter">
+          Copyright Cristian Durán © 2024. Todos los derechos reservados.
+        </span>
+        <div id="pcPixelArt2" class="imgContainerInferior">
+          <img src={{pcImage}} class="logoPC" alt="Logo PC">
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+.container-small {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 2px 2px;
+  margin: 5px 5px;
+}
+
+.container {
+  background-image: url(../../../assets/img/fondo\ nubes.png);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: 'Gochi Hand';
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.containerOfButton {
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+.botones {
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 2px 2px;
+  margin: 5px 5px;
+  max-width: max-content;
+  background-color: #ffffff;
+}
+
+.btn {
+  font-family: 'Yatra One';
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #3e5bff;
+  color: #ffffff;
+}
+
+.project2 {
+  background: #c7da1e;
+  color: #000000;
+}
+
+.pdf {
+  width: 100%;
+  height: 100%;
+}
