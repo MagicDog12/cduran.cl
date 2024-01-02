@@ -118,6 +118,23 @@ ul li h2:hover::before {
   background-color: #f1f1f1;
 }
 
+.card:hover {
+  background-color: #13cc94;
+
+  p {
+    background-color: #13cc94;
+  }
+
+  .skills {
+    color: #9b6700;
+  }
+
+  a {
+    background-color: #13cc94;
+    color: #4e3400;
+  }
+}
+
 .skills {
   color: #892ed4;
 }
