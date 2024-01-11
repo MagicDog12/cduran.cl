@@ -1,0 +1,169 @@
+.fondo1 {
+  background-image: url(../../../assets/img/fondo\ cielo.png);
+}
+
+h1 {
+  font-family: 'Gochi Hand';
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.wrapHeader {
+  font-family: 'circular-bold', sans-serif;
+  font-size: 0.5rem;
+  line-height: 1.5;
+  color: rgba(3, 27, 78, 0.8);
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  position: relative;
+  justify-content: center;
+}
+
+@keyframes movimientoInicial {
+  0% {
+    transform: translateY(0);
+  }
+
+  10% {
+    transform: rotate(180deg);
+  }
+
+  15% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: translateY(900px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+.imgContainerSuperior {
+  padding: 20px 0px 20px 20px;
+  filter: drop-shadow(1px 1px 3px #7c0454);
+  opacity: 0.9;
+}
+
+.imgContainerSuperior:hover {
+  filter: drop-shadow(2px 2px 1px #ad62a1);
+  opacity: 1;
+  animation: logoPcMovimiento 0.5s ease 10;
+}
+
+.cuadro {
+  border: 5px solid black;
+  border-radius: 6px;
+}
+
+.cuadroChico {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+@keyframes logoPcMovimiento {
+  0% {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+
+  49% {
+    transform: perspective(1rem);
+  }
+
+  50% {
+    transform: rotate3d(1, 0, 1, 3deg);
+  }
+
+  99% {
+    transform: perspective(0.5rem);
+  }
+
+  100% {
+    transform: rotate3d(0, 1, 1, -3deg);
+  }
+}
+
+.logoPC {
+  max-width: 150px;
+}
+
+#pcPixelArt {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+#pcPixelArt img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.line-info {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.line-info::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-image: linear-gradient(to right, #00ffff, #fa0fd3);
+  transition: all 0.3s ease-in-out;
+}
+
+.line-info:hover::before {
+  width: 100%;
+}
+
+
+@media screen and (max-width:700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .wrapHeader .container {
+    flex-direction: row;
+  }
+
+  .titulo {
+    width: 50%;
+  }
+
+  h1 {
+    font-family: 'Gochi Hand';
+    font-size: 0.9rem;
+  }
+
+  .logoPC {
+    max-width: 120px;
+  }
+
+  #pcPixelArt {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+  }
+
+  #pcPixelArt img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

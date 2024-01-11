@@ -8,18 +8,20 @@ import { HomePage } from './pages/home/home.page';
 
 import { NgxDocViewerModule } from "ngx-doc-viewer";
 import { MallaPage } from './pages/malla/malla.page';
+import { ComponentModule } from './components/component.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     CvPage,
     HomePage,
-    MallaPage
+    MallaPage,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxDocViewerModule
+    NgxDocViewerModule,
+    ComponentModule
   ],
   providers: [
     provideClientHydration()

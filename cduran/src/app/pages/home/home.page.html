@@ -1,18 +1,5 @@
 <div class="fondo2">
-  <div class="cuadro fondo1 cuadroChico">
-    <header class="wrapHeader">
-      <div class="container">
-        <div class="titulo">
-          <h1>
-            ¡Hola! Mi nombre es <br><span class="line-info">{{ displayedContentTitle }}</span>
-          </h1>
-        </div>
-        <div #pcPixelArt class="imgContainerSuperior">
-          <img src={{pcImage}} class="logoPC" alt="Logo PC">
-        </div>
-      </div>
-    </header>
-  </div>
+  <app-header></app-header>
   <section>
     <div class="container">
       <div class="cuadro fondo1 cuadroTexto">
@@ -95,16 +82,5 @@
       </div>
     </div>
   </section>
-  <div class="cuadro fondo3 cuadroChico">
-    <footer class="wrapHeader">
-      <div class="container">
-        <span class="spanFooter">
-          Copyright Cristian Durán © 2024. Todos los derechos reservados.
-        </span>
-        <div id="pcPixelArt2" class="imgContainerInferior">
-          <img src={{pcImage}} class="logoPC" alt="Logo PC">
-        </div>
-      </div>
-    </footer>
-  </div>
+  <app-footer></app-footer>
 </div>
