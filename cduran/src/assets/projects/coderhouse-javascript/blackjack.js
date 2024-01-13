@@ -7,7 +7,7 @@
 // initDeck: Void ->  [Card]
 // Inicializa el mazo de cartas
 const initDeck = async () => {
-    const resp = await fetch("/data.json");
+    const resp = await fetch("./data.json");
     const data = await resp.json()
     return data.cards;
 };
@@ -80,7 +80,7 @@ const startPlayerTurn = (message) => {
 };
 
 // playerTurn: Void -> Void
-// 
+//
 const playerTurn = async () => {
     const { deck, playerHand, dealerHand } = getGameState();
     let continuePlaying = true;
@@ -241,7 +241,7 @@ const playGame = async () => {
 
 //
 // Funciones relacionadas con el uso del DOM
-// 
+//
 
 // Obtener referencias a elementos del DOM
 const playButton = document.getElementById('playButton');
@@ -315,7 +315,7 @@ const addCardImg = (card, container) => {
     let newDiv = document.createElement('div');
     newDiv.classList.add('col');
     let newImg = document.createElement('img');
-    newImg.src = "/img/" + img;
+    newImg.src = "./img/" + img;
     newImg.classList.add("img-thumbnail");
     newImg.alt = "Carta " + value + " de " + kind;
     newDiv.appendChild(newImg);
@@ -349,10 +349,10 @@ const createDefaultCards = () => {
     let imgDefault2 = document.createElement('img');
     let imgDefault3 = document.createElement('img');
     let imgDefault4 = document.createElement('img');
-    imgDefault1.src = "/img/default-1.png";
-    imgDefault2.src = "/img/default-1.png";
-    imgDefault3.src = "/img/default-2.png";
-    imgDefault4.src = "/img/default-2.png";
+    imgDefault1.src = "./img/default-1.png";
+    imgDefault2.src = "./img/default-1.png";
+    imgDefault3.src = "./img/default-2.png";
+    imgDefault4.src = "./img/default-2.png";
     imgDefault1.classList.add("img-thumbnail");
     imgDefault2.classList.add("img-thumbnail");
     imgDefault3.classList.add("img-thumbnail");
