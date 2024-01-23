@@ -9,6 +9,8 @@ import { HomePage } from './pages/home/home.page';
 import { NgxDocViewerModule } from "ngx-doc-viewer";
 import { MallaPage } from './pages/malla/malla.page';
 import { ComponentModule } from './components/component.module';
+import { ProjectsPage } from './pages/projects/projects.page';
+import { AchievementsPage } from './pages/achievements/achievements.page';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { ComponentModule } from './components/component.module';
     CvPage,
     HomePage,
     MallaPage,
+    ProjectsPage,
+    AchievementsPage
   ],
   imports: [
     BrowserModule,
