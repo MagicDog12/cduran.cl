@@ -6,6 +6,7 @@ import { NotFoundPage } from './pages/not-found/not-found.page';
 import { MallaPage } from './pages/malla/malla.page';
 import { ScrollService } from './services/scroll.service';
 import { ProjectsPage } from './pages/projects/projects.page';
+import { AchievementsPage } from './pages/achievements/achievements.page';
 
 const routes: Routes = [
   {
@@ -32,6 +33,11 @@ const routes: Routes = [
   {
     path: 'projects',
     component: ProjectsPage,
+    pathMatch: 'full',
+  },
+  {
+    path: 'achievements',
+    component: AchievementsPage,
     pathMatch: 'full',
   },
   {
