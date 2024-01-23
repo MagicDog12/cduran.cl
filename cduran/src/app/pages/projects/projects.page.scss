@@ -1,0 +1,179 @@
+.fondo1 {
+  background-image: url(../../../assets/img/fondo\ cielo.png);
+}
+
+.fondo2 {
+  background-image: url(../../../assets/img/fondo\ nubes.png);
+  height: 100%;
+}
+
+h2 {
+  font-family: 'Gochi Hand';
+  font-size: 0.8rem;
+  margin: 2px 2px;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  position: relative;
+  justify-content: center;
+}
+
+.cuadro {
+  border: 5px solid black;
+  border-radius: 6px;
+}
+
+.cuadroTexto {
+  width: 50%;
+}
+
+.cuadroIzq {
+  padding: 0px 2px;
+}
+
+.container-of-projects {
+  justify-content: center;
+}
+
+.botones {
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 2px 2px;
+  margin: 5px 5px;
+  max-width: max-content;
+  background-color: #ffffff;
+}
+
+.btn {
+  font-family: 'Yatra One';
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #3e5bff;
+  color: #ffffff;
+}
+
+.project2 {
+  background: #c7da1e;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
+
+ul li h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-right: 10px;
+}
+
+ul li h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-image: linear-gradient(to right, #00ffff, #fa0fd3);
+  transition: all 0.3s ease-in-out;
+}
+
+ul li h2:hover::before {
+  width: 100%;
+}
+
+.grid-container {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.card {
+  font-family: 'Yatra One';
+  font-size: 0.7rem;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 6px;
+}
+
+.card p {
+  font-size: 0.5rem;
+  background-color: #f1f1f1;
+}
+
+.card:hover {
+  background-color: #13cc94;
+
+  p {
+    background-color: #13cc94;
+  }
+
+  .skills {
+    color: #9b6700;
+  }
+
+  .project-in-progress {
+    color: #9521a7;
+  }
+
+  .project-finish {
+    color: #1f14b9;
+  }
+
+  a {
+    background-color: #13cc94;
+    color: #4e3400;
+  }
+}
+
+.skills {
+  color: #892ed4;
+}
+
+a {
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  font-size: 0.6rem;
+  color: #40b4c6;
+  text-decoration: none;
+}
+
+@media screen and (max-width:700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .cuadroTexto {
+    width: 90%;
+  }
+
+  .cuadroOfProjects {
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 0.7rem;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+}
