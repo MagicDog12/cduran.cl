@@ -11,6 +11,7 @@ import { MallaPage } from './pages/malla/malla.page';
 import { ComponentModule } from './components/component.module';
 import { ProjectsPage } from './pages/projects/projects.page';
 import { AchievementsPage } from './pages/achievements/achievements.page';
+import { ContactPage } from './pages/contact/contact.page';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AchievementsPage } from './pages/achievements/achievements.page';
     HomePage,
     MallaPage,
     ProjectsPage,
-    AchievementsPage
+    AchievementsPage,
+    ContactPage
   ],
   imports: [
     BrowserModule,

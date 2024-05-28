@@ -7,6 +7,7 @@ import { MallaPage } from './pages/malla/malla.page';
 import { ScrollService } from './services/scroll.service';
 import { ProjectsPage } from './pages/projects/projects.page';
 import { AchievementsPage } from './pages/achievements/achievements.page';
+import { ContactPage } from './pages/contact/contact.page';
 
 const routes: Routes = [
   {
@@ -38,6 +39,11 @@ const routes: Routes = [
   {
     path: 'achievements',
     component: AchievementsPage,
+    pathMatch: 'full',
+  },
+  {
+    path: 'contact',
+    component: ContactPage,
     pathMatch: 'full',
   },
   {
