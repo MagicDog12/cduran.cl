@@ -24,5 +24,8 @@ jobs:
             git checkout ${{ secrets.BRANCH }}
             git pull
             npm install
+            node -v
+            exit
             npm run build
+            cp dist ${{ secrets.DEPLOY_DIR }}
             exit
