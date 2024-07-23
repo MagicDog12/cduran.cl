@@ -27,5 +27,5 @@ jobs:
             npm run build
             rm -r ${{ secrets.DEPLOY_DIR }}
             cp ${{ secrets.DIST_DIR }} ${{ secrets.DEPLOY_DIR }}
-            rm -r ${{ secrets.DIST_DIR }}
+            rm -r ${{ secrets.DIST_ROOT_DIR }}
             exit
