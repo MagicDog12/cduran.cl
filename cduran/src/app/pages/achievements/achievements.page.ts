@@ -19,7 +19,7 @@ export class AchievementsPage implements OnInit {
         name: 'Javascript (Coderhouse)',
         description: `Sintaxis y variables, Control de flujos, Ciclos e iteraciones, Funciones, Objetos, Arrays, Funciones de orden superior, DOM, Eventos, Storage & JSON, Operadores avanzados, Librerías, Asincronía y promesas, Ajax & Fetch, Frameworks & NodeJS.`,
         skills: ['Javascript'],
-        link: 'https://www.coderhouse.cl/certificados/65a6d0172d5176892829a975',
+        link: 'https://www.coderhouse.com/cl/certificados/65a6d0172d5176892829a975',
       },
       {
         name: 'Angular (Udemy)',
