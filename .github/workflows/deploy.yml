@@ -23,7 +23,6 @@ jobs:
             git fetch
             git checkout ${{ secrets.BRANCH }}
             git pull
-            cd cduran
             npm install
             npm run build
             exit
