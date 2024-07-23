@@ -24,5 +24,6 @@ export class HomePage implements OnInit {
 
   ngOnInit(): void {
     this.scrollService.scrollToTopOnRouterChange();
+    console.log("testing");
   }
 }
