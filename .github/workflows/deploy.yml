@@ -25,7 +25,7 @@ jobs:
             git pull
             npm install
             npm run build
-            cp ${{ secrets.DIST_DIR }} ${{ secrets.DEPLOY_DIR }}
+            cp -r ${{ secrets.DIST_DIR }} ${{ secrets.DEPLOY_DIR }}
             rm -r ${{ secrets.DEPLOY_DIR }}
             rm -r ${{ secrets.DIST_ROOT_DIR }}
             exit
